@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Lab4</title>
+        <script language="JavaScript">
+            l=0;
+            function dataBase(test) {
+                 var counter=0;
+                 if (test.answer1[1].checked) {counter++;}
+                 if (test.answer2[0].checked) {counter++;}
+                 if (test.answer3[0].checked) {counter++;}
+                 if (test.answer4[1].checked) {counter++;}
+                 if (test.answer5[0].checked) {counter++;}
+                 if (test.answer6[0].checked) {counter++;}
+                 if (test.answer7[1].checked) {counter++;}
+                 if (test.answer8[0].checked) {counter++;}
+                 if (test.answer9[1].checked) {counter++;}
+                 if (test.answer10[1].checked) {counter++;}
+
+                 document.test.display.value = counter;
+            }
+
+        </script>
+    </head>
+    <body>
+        <br>
+        <div align=center>
+        <form method="post" name="test">
+            <fieldset class="questions" style="width:500px" align=left>
+                    <legend>Test</legend>
+                    <fieldset class="que">
+                        <legend>Question1</legend>
+                            <p><b>Как расшифровывается аббревиатура "HTML"?</b></p>
+                            <input type="radio" name="answer1" value="11">Hyper Technology Mark Language<br>
+                            <input type="radio" name="answer1" value="12">Hyper Text Narkup Language
+                    </fieldset>
+                    <fieldset class="que">
+                        <legend>Question2</legend>
+                        <p><b>Какой тег позволяет вставлять картинки в HTML документы?</b></p>
+                            <input type="radio" name="answer2" value="21">img<br>
+                            <input type="radio" name="answer2" value="22">picture
+                    </fieldset><br>
+                    <fieldset class="que">
+                        <legend>Question3</legend>
+                        <p><b>Что такое HTML?</b></p>
+                            <input type="radio" name="answer3" value="31">Язык разметки<br>
+                            <input type="radio" name="answer3" value="32">Язык программирования<br>
+                            <input type="radio" name="answer3" value="33">Язык моделирования
+                    </fieldset><br>
+                    <fieldset class="que">
+                        <legend>Question4</legend>
+                        <p><b>С помощью какого тэга можно сделать текст жирным?</b></p>
+                            <input type="radio" name="answer4" value="41">i<br>
+                            <input type="radio" name="answer4" value="42">b
+                    </fieldset><br>
+                    <fieldset class="que">
+                        <legend>Question5</legend>
+                        <p><b>Как расшифровывается XML?</b></p>
+                            <input type="radio" name="answer5" value="51">Extensible Markup Language<br>
+                            <input type="radio" name="answer5" value="52">Cross Markup Language
+                    </fieldset><br>
+                    <fieldset class="que">
+                        <legend>Question6</legend>
+                        <p><b>Укажите тэг, позволяющий создавать заголовки.</b></p>
+                            <input type="radio" name="answer6" value="61">h<br>
+                            <input type="radio" name="answer6" value="62">br
+                    </fieldset><br>
+                    <fieldset class="que">
+                        <legend>Question7</legend>
+                        <p><b>С помощью какого тэга можно сделать текст курсивом?</b></p>
+                            <input type="radio" name="answer7" value="71">b<br>
+                            <input type="radio" name="answer7" value="72">i
+                    </fieldset><br>
+                    <fieldset class="que">
+                        <legend>Question8</legend>
+                        <p><b>Укажите тег, позволяющий определить таблицу.</b></p>
+                            <input type="radio" name="answer8" value="81">table<br>
+                            <input type="radio" name="answer8" value="82">tr
+                    </fieldset><br>
+                    <fieldset class="que">
+                        <legend>Question9</legend>
+                        <p><b>Укажите тег, позволяющий определить упорядоченный список.</b></p>
+                            <input type="radio" name="answer9" value="91">ul<br>
+                            <input type="radio" name="answer9" value="92">li
+                    </fieldset><br>
+                    <fieldset class="que">
+                        <legend>Question10</legend>
+                        <p><b>HTML чувствителен к регистру?</b></p>
+                            <input type="radio" name="answer10" value="101">Да<br>
+                            <input type="radio" name="answer10" value="102">Нет
+                    </fieldset><br>
+                <hr>
+            <table>
+            <tr align="center">
+            <td><strong><input name="check" onclick="dataBase(this.form)" value=" Get result " type="button"></strong></td>
+            <td><strong><textarea cols="5" name="display" rows="1" wrap="VIRTUAL" disabled></textarea></strong></td>
+
+            </tr>
+            </table>
+            </fieldset>
+        </form>
+        </div>
+    </body>
+</html>

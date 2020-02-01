@@ -1,0 +1,25 @@
+
+.styled
+{
+	font-family: Century Gothic;
+	color: #0c54c9;	
+}
+
+.mark
+{
+	background-color: yellow;
+	color: black;
+}
+
+.cursive
+{
+	font-style: italic;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.bold {
+	font-weight: bold;
+}

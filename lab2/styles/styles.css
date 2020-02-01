@@ -1,0 +1,36 @@
+a        
+{
+	text-decoration: none; 
+	color: #000000; 
+	font: 14pt Calibri;
+}
+
+a:hover  
+{
+	text-decoration: underline;
+	color: #670000;
+}
+
+p
+{
+	padding-left: 50px;
+	color: #432403;
+	font: 16pt Calibri;
+}
+
+#pre
+{
+	padding-left: 10px;
+	color: #432403;
+	font: 16pt Calibri;
+}
+
+h1
+{
+	color: #770a2c;
+}
+
+h2
+{
+	color: #000000;
+}

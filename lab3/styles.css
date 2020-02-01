@@ -1,0 +1,49 @@
+body     
+{
+	background: #202020;
+}
+
+.table_cell 
+{
+	background: #9b6b83;
+	color: #0c0c0c;
+	font-family: cursive;
+	font-size: 50pt;
+}
+
+p
+{
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+	font-family: cursive;
+	font-size: 50pt;
+}
+
+table
+{
+	display: table;
+    margin: 0 auto;
+	border: 2px solid #000;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+td
+{  
+	border: 3px solid #202020; 
+	background: #8ca5a2; 
+	height: 60px;
+	width: 150px;
+	text-align: center;
+}
+
+.left
+{
+	text-align: left;	
+}
+
+.right
+{
+	text-align: right;
+}
